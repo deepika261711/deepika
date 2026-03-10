@@ -1,0 +1,81 @@
+body {
+    font-family:aeial,sans-serif;
+    margin:0;
+    padding:0;
+    line-height:1.6;
+}
+header {
+    background-image:url(bg.png);
+    text-shadow:10px 10px 8px black;
+    color:black;
+    padding:20px 0;
+    text-align:center;
+}
+header {
+}
+header h1 {
+    margin:0;
+}
+header p{
+    margin:0;
+    font-size:1.2em;
+}
+section {
+    padding:20px;
+    margin:20px 0;
+}
+#about img {
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin-top:10px;
+}
+#skills ul {
+    list-style-type: none;
+    padding:0;
+}
+
+#skills ul li {
+    background:rgb(34, 102, 0);
+    margin:5px 0;
+    padding:10px;
+    border-left:5px solid blue;
+}
+#project {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.project {
+    flex:1 1 300px;
+    margin:10px;
+}
+#resume a {
+    display:inline-block;
+    padding:10px 20px;
+    background:blue;
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+}
+ #resume a:hover {
+    background:#555;
+ }
+ #contact p{
+    margin:5px 0;
+ }
+ footer {
+    background:#333;
+    color:#fff;
+    text-align:center;
+    padding:10px 0;
+ }
+ footer{
+ }
+ footer a {
+    text-decoration:none;
+    color:rgb(0,255,208);
+ }
+ footer a:hover{
+    background:#555;
+ }
